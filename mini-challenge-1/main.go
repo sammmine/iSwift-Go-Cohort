@@ -1,12 +1,12 @@
-//mini challenge 1 - fizzbuzz
-//looping and conditional
+// Mini Challenge 1 : FizzBuzz
 
-package looping
+package main
 
 import "fmt"
 
 func looping() {
 	n := 15
+	// from 1 to n, increment
 	for i := 1; i <= n; i++ {
 		if i%5 == 0 && i%3 == 0 {
 			fmt.Println("FizzBuzz")
@@ -20,4 +20,9 @@ func looping() {
 			}
 		}
 	}
+}
+
+func main() {
+	// calling the looping function
+	looping()
 }
