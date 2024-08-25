@@ -9,3 +9,6 @@
 
 ### 2 - Calculating Words Appear
 > A program that accepts a word or a sentence, and the alphabet of that word or sentence is calculated. The program implements Bufio Package to input the word or sentence, and use Map to store each alphabets. 
+
+### 3 - Data Search
+> A program that search a data field and returns the data. The program implements Struct, Slice, Map, Function, and CLI.
